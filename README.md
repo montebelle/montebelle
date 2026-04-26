@@ -33,8 +33,4 @@ Cron-driven, filesystem-backed, human-approved at publish gates. 28-cron orchest
 
 B.S. Electrical Engineering, Minor in Applied Mathematics — Howard University
 
-### Open to
-
-Senior / staff ML engineering roles in ML platform, agent systems, applied ML, or causal inference. Remote-first.
-
 Reach me: info@montebelle.com
