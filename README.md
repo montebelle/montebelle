@@ -1,8 +1,12 @@
-### J. T. Bell
+### J. T. Bell — Montebelle
 
-ML/AI engineer. I build production forecasting, causal-inference, and agentic systems — plus a growing set of local-first LLM tools on Apple Silicon.
+I'm both JT (the engineer) and Montebelle (the brand). I build production forecasting, causal-inference, and agentic systems — and run a managed agent platform that lives in the messaging apps clients already use.
 
-My day job is scoped under contract; the public repos below show how I think and what I build outside it.
+**Built for ourselves. Deployed for clients.** Every public system below started as something I run for my own work. If it survives a year of daily use, it goes here.
+
+**Speed without judgment is liability.** Every repo has the verification step — the dedup, the calibration, the gate, the bias audit, the human-approval seam. Confident systems emitting nonsense is the failure mode I optimize against.
+
+I don't ship dashboards. I don't ship autonomous SDRs. I ship agents that peer into your work, learn it, and operate alongside you — and the on-device tooling I use to think clearly about what they should do.
 
 ---
 
