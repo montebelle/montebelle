@@ -1,12 +1,18 @@
 ### J. T. Bell
 
-I build production forecasting, causal inference, and agentic systems.
+I build forecasting, causal inference, and agentic systems. The harder problem under all of them is the same. How do you know it's right.
 
-The way I build them is the part I think hardest about. Speed without judgment is liability. Confident systems emitting nonsense is the failure mode I optimize against. So every system I ship has the verification step inside the loop. Dedup. Calibration. Gates. Bias audit. Human approval. Not bolted on after the fact.
+That question shapes everything below. A confident system emitting nonsense is the failure mode I optimize against. Speed without judgment is liability. So every system here has the verification step inside the loop. Dedup. Calibration. Gates. Bias audit. Human approval. Built into the decision structure, not a separate review pass tacked on after.
 
-Montebelle is where that ethos gets the most direct expression. It is not a business. It is a project I run on myself first. An agent platform that lives in the messaging apps people already use (WhatsApp, Slack, Signal, Discord), held to the same gates as the rest of my work. Built for myself. Deployed for others only after a year of survival in my own daily use.
+The repos are the same discipline in different shapes.
 
-The other repos here are the same idea in other shapes. A real-time meeting copilot. A fully local batch RAG pipeline. A career intelligence skill for Claude Code. A small body of technical writing. Different surfaces. Same principle.
+**Montebelle** is its most direct expression. An agent platform that runs in the messaging apps people already use (WhatsApp, Slack, Signal, Discord), with the gates baked into the operating loop instead of bolted to the surface. The public framework is [openmbps-platform](https://github.com/montebelle/openmbps-platform).
+
+[meetings](https://github.com/montebelle/meetings) and [recordings](https://github.com/montebelle/recordings) keep the verification surface local. Transcription, embeddings, summarization, RAG, all on the laptop, because the right place to enforce a gate is the place that owns the data.
+
+[jobe-skill](https://github.com/montebelle/jobe-skill) applies the same instinct to job search noise. Multi-signal dedup, hybrid ranking, ghost-job detection, LLM-judge calibration, bias audit. Each layer of the decision is verifiable on its own.
+
+[writings](https://github.com/montebelle/writings) is the same thinking, out loud.
 
 ---
 
@@ -27,6 +33,6 @@ MLX Whisper large-v3-turbo for transcription, plus Qwen3.5-9B (262K ctx) for res
 - 8 discovery sources, 30-day cache, lazy enrichment
 
 **[openmbps-platform](https://github.com/montebelle/openmbps-platform)**: minimal framework for autonomous agent operations on a single machine.
-Cron-driven, filesystem-backed, human-approved at publish gates. 28-cron orchestration with deterministic dedup keys, bounded retries, and explicit approval signals. Designed so a single operator can fan out across multiple client workspaces without losing the audit trail.
+Cron-driven, filesystem-backed, human-approved at publish gates. 28-cron orchestration with deterministic dedup keys, bounded retries, and explicit approval signals.
 
 **[writings](https://github.com/montebelle/writings)**: technical essays on forecasting, causal inference, and agent system design.
