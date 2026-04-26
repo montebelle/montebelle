@@ -26,11 +26,3 @@ MLX Whisper large-v3-turbo for transcription + Qwen3.5-9B (262K ctx) for respons
 Cron-driven, filesystem-backed, human-approved at publish gates. 28-cron orchestration with deterministic dedup keys, bounded retries, and explicit approval signals — designed so a single operator can fan out across multiple client workspaces without losing the audit trail.
 
 **[writings](https://github.com/montebelle/writings)** — Technical essays on forecasting, causal inference, and agent-system design.
-
----
-
-### Background
-
-B.S. Electrical Engineering, Minor in Applied Mathematics — Howard University
-
-Reach me: info@montebelle.com
