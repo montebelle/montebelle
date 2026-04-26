@@ -1,12 +1,12 @@
-### J. T. Bell — Montebelle
+### J. T. Bell
 
-I'm both JT (the engineer) and Montebelle (the brand). I build production forecasting, causal-inference, and agentic systems — and run a managed agent platform that lives in the messaging apps clients already use.
+I build production forecasting, causal-inference, and agentic systems.
 
-**Built for ourselves. Deployed for clients.** Every public system below started as something I run for my own work. If it survives a year of daily use, it goes here.
+The biggest thing I'm building is **Montebelle** — a managed-agent platform that runs autonomous agents in the messaging apps clients already use (WhatsApp, Slack, Signal, Discord). Alongside it: an on-device meeting copilot, a fully-local batch RAG pipeline, a career-intelligence skill for Claude Code, and a small body of technical writing. All of it is below.
 
-**Speed without judgment is liability.** Every repo has the verification step — the dedup, the calibration, the gate, the bias audit, the human-approval seam. Confident systems emitting nonsense is the failure mode I optimize against.
+**Built for myself first.** Every public system here started as something I run daily. If it survives a year of use, it goes public.
 
-I don't ship dashboards. I don't ship autonomous SDRs. I ship agents that peer into your work, learn it, and operate alongside you — and the on-device tooling I use to think clearly about what they should do.
+**Speed without judgment is liability.** Each repo has the verification step — dedup, calibration, gates, bias audit, human approval. Confident systems emitting nonsense is the failure mode I optimize against.
 
 ---
 
